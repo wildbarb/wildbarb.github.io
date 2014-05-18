@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<title>Barb</title>
+	
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="demoPage.css" />
+    <link rel="stylesheet" href="animate/animate.min.css">
+    
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    
+     <script type="text/javascript" src="./scripts/modernizr-2.6.2.min.js"></script>
+    <script type="text/javascript" src="./scripts/script.bundle.min.js"></script>	
+	
+	<script type="text/javascript" src="jquery.fullPage.js"></script>
+	<script type="text/javascript" src="examples.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var pepe = $.fn.fullpage({
+				slidesColor: ['#eee', '#eee', '#eee', '#eee', '#eee'],
+				anchors: ['barb', 'about', 'fragrance', 'manifesto'],
+				menu: '#menu',
+				scrollingSpeed: 900
+			});
+			
+		});
+	</script>
+    
+    <style>
+.table .tableCell > *,
+.slides,
+.slides .tableCell > *{
+	opacity:0; 
+	-webkit-transition:opacity 1s ease-out 1s;
+	-moz-transition:opacity 1s ease-out 1s;
+	-ms-transition: opacity 1s ease-out 1s;
+	transition:opacity 1s ease-out 1s; 
+}
+
+.active.table .tableCell > *,
+.active .slides,
+.active.slide .tableCell > *{
+	opacity:1;
+} 
+</style>
+
+</head>
+<body>
+<center>
+<ul id="menu">
+	<li data-menuanchor="about"><a href="#about"><img src="menu1.png" border="0" style="margin-bottom:-2px;"></a></li> <span style="color:#acacac;">|</span>
+	<li data-menuanchor="fragrance"><a href="#fragrance"><img src="menu2.png" border="0" style="margin-bottom:-2px;"></a></li> <span style="color:#acacac;">|</span>
+    <li data-menuanchor="manifesto"><a href="#manifesto"><img src="menu3.png" border="0" style="margin-bottom:-2px;"></a></li> 
+</ul></center>
+
+<div class="section" id="section0">
+	<div class="scroll-down"><a href="#about"><img src="scroll-down.png" border="0"></a></div>
+</div>
+
+<div class="section" id="section1">
+	<div class="intro">	<div id="logo-text">
+<img src="barb-slide2.png" alt="Barb" /><br><br><div id="flacon"><img src="flacon.png" alt="Barb" style="flacon" /></div><br><br><br>
+<p class="p-text-main">BARB is a fragrance for men whose spirit is eager to break through the concrete walls, whose boundaries are way beyond the whole world. The new fragrance of wilderness and roughness against the abundance of the artificial finesse. True essence within a decent shape, a form that holds a spirit of its owner.</p>
+	</div></div>
+</div>
+<div class="section" id="section2">
+	 <div class="intro">
+    			<div id="logo-text"><img src="barb-logo-3.png" alt="Barb" style="margin-right:50px; margin-bottom:50px;" />
+			<p class="p-text-main-w">The desire for freedom, the thirst of adventures. First come the notes of bergamot, damp water and shade juniper. The "wooden heart" of aroma reveals cedar, vetiver and sandalwood tree accompanied by ginger, rice, lavender with anise, cardamon and cinnamon on the top. White musk, oak moss and most valuable trees form "the base" of the fragrance.</p>
+<div id="tikva"><img src="tikva.png" style="margin-left:15px; margin-top:50px;"></div></div>
+	</div>
+   </div>
+<div class="section" id="section3">
+	<div class="intro">
+	<div id="logo-text"><img src="barb-logo-4.png" alt="Barb" style="margin-bottom:40px;" />
+		<div class="main-text"><p class="p-text-main">BARB is all about personality, savage power and courage. BARB is about a man who resists the order, a man who owns the world. Everything belongs to him: oceans, mountains, woods. And no one can take it from him.<br><br>
+Back to the roots, back to the truth. The chaotic harmony to aspire to. BARB is a recollection of achieved goals, conquered peaks, defeated storms and kilometres covered. It is a key to the power within you.</p>
+<p style="margin-top:40px;"><img src="release-black.svg" width="90%"></p></div>
+<div id="footer"><p><img src="icons.png" usemap="#mapname" border="0">
+<map name="mapname">
+  <area shape="circle" coords="17, 17, 17" href="http://vkontakte.ru/share.php?&description=The desire for freedom, the thirst of adventures. BARB. A new fragrance for men.&url=http://huntervesti.ru/barb/">
+  <area shape="circle" coords="73, 16, 17" href="https://twitter.com/intent/tweet?text=The desire for freedom, the thirst of adventures. BARB. A new fragrance for men.&url=http://huntervesti.ru/barb/">
+  <area shape="circle" coords="128, 17, 17" href="http://www.facebook.com/sharer.php?u=http://huntervesti.ru/barb/">
+   <area shape="circle" coords="183, 17, 17" href="http://www.behance.net/gallery/BARB-Perfume/13276533">
+</map></p>
+<p class="copyright">2013 British Higher School of Art & Design</p></div></div>
+	</div>
+</div>
+</body>
+</html>
